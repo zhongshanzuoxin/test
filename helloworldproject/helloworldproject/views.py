@@ -5,5 +5,5 @@ def helloworldfunction(request):
     returnedobject = HttpResponse('<h1>hello world</h1>')
     return returnedobject
 
-class HelloWprldClass(TemplateView):
+class HelloWorldClass(TemplateView):
     template_name = 'hello.html'
